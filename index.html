@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <title></title>
+    <style>
+        html,body{
+            height: 100%;
+            background:linear-gradient(180deg, #fad0c4, #ffd1ff 50%,#fad0c4);
+            font-family: "Microsoft JhengHei", Arial, serif;
+        }
+
+        .breadcrumb{
+            background-color: transparent;
+        }
+        .breadcrumb-item + .breadcrumb-item::before {
+            display: inline-block;
+            padding-right: 0.5rem;
+            content: "";
+        }
+        .breadcrumb-item a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .breadcrumb-item a:hover{
+            color: red;
+        }
+        .col-12{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            padding: 0;
+        }
+        h4{
+            font-weight: bold; 
+            margin: 1rem 0 1rem 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid" style="height:10%;">
+        <div class="row h-100 justify-content-between align-items-start">
+            <div class="col-12 col-lg-2"><div style="width:200px;"><img class="img-fluid" src="https://static.ttpp.com/brandlogo/0-679864761.png"></div></div>
+            <div class="col-12 col-lg-3">
+                <div class="d-flex align-items-center justify-content-end h-100" style="padding:0">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="https://zh.wikipedia.org/zh-tw/%E6%AB%BB%E6%A1%83%E5%AD%90">作者</a></li>
+                        <li class="breadcrumb-item"><a href="http://aaa108.blogspot.com/2016/01/blog-post.html">人物介紹</a></li>
+                        <li class="breadcrumb-item"><a href="https://comic.acgn.cc/manhua-ytxwz.htm">漫畫</a></li>
+                        <li class="breadcrumb-item"><a href="https://fashion.ettoday.net/news/1245646">經典語錄</a></li>
+                    </ol>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <div class="container-fluid" style="height:85%">
+        <div class="row h-100">
+            <div class="dev d-flex flex-column justify-content-center align-items-center" >
+                <img width='200px' height='200px' src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcOZBsVI5d7e1AAh9-YytSUKLI4f_7n7e1XEQ7mSjgwSJS7qAC&usqp=CAU" class="rounded-circle">
+                <h4>櫻桃小丸子</h4>
+                <p style="padding:0 5% 0 5%; text-align: left;">《櫻桃小丸子》（日語：ちびまる子ちゃん）是日本漫畫家櫻桃子創作的日本漫畫作品。於1986年在少女漫畫雜誌《Ribon》開始連載，單行本全17冊[1]，後來改編成動畫、遊戲、電視劇。故事描敘小丸子以及其家人和同學展開，有關於親情、友誼或是一些生活事情，令人回想起童年的稚氣。</p>
+                <button id="read_more" type="button" class="btn btn-danger" style="margin-bottom: 1rem;">閱讀更多</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="height:5%">
+        <div class="row h-100">
+            <div class="col d-flex justify-content-center align-items-center"><p style="margin:0">&copy; 2020 YuLun 泰山職業訓練場<p></div>
+        </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $('#read_more').on('click', function(){
+            window.location.href='https://zh.wikipedia.org/zh-tw/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90';
+        })
+    </script>
+</body>
+
+</html>
